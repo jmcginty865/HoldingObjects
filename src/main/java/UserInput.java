@@ -6,7 +6,4 @@ import java.util.Scanner;
 public class UserInput {
     Scanner scan = new Scanner(System.in);
 
-    private String name = scan.next();
-
-    private int phoneNumber = scan.nextInt();
 }
