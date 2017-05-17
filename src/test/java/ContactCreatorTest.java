@@ -11,7 +11,7 @@ public class ContactCreatorTest {
         String name = "Mary";
 
         String expected = "Mary";
-        String actual = contactCreator.addNameForPerson(name);
+        String actual = contactCreator.addName(name);
 
         Assert.assertEquals("This should return Mary", expected , actual);
     }
